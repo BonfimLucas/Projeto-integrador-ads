@@ -1,0 +1,41 @@
+.intro-img-doar {
+  background: hsla(199, 75%, 75%, 80%);
+  height: 620px;
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.intro-img-doar::before {
+  content: "";
+  background-image: url(../../img/fotos/doação.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 620px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.doar-deposito {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: var(--cor-p5);
+}
+
+.doar-conteudo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+}
+
+.doar-conteudo p {
+  margin-bottom: 60px;
+}
+
+.doar-conteudo h2 {
+  margin-bottom: 30px;
+}

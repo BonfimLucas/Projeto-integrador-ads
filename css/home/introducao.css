@@ -1,0 +1,94 @@
+.intro-img {
+  background: linear-gradient(
+    to right,
+    hsla(199, 75%, 75%, 40%),
+    hsla(199, 89%, 35%, 80%)
+  );
+  height: 620px;
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.intro-img::before {
+  content: "";
+  background-image: url("../../img/fotos/grupopessoas.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 620px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 60px;
+  margin-top: 120px;
+}
+
+.introducao-conteudo {
+  align-self: center;
+  position: relative;
+}
+
+.introducao-conteudo::after {
+  content: "";
+  border-radius: 50%;
+  background: var(--cor-p3);
+  width: 750px;
+  height: 750px;
+  left: -115px;
+  top: -120px;
+  position: absolute;
+  display: block;
+  z-index: -2;
+}
+
+.introducao-conteudo h1 {
+  padding-bottom: 20px;
+}
+
+.introducao-conteudo p {
+  padding-bottom: 20px;
+}
+
+.loginbutton {
+  border: none;
+  border-radius: 1.5rem;
+  background-color: var(--cor-p3);
+  color: var(--cor-p0);
+  padding: 0 30px;
+}
+
+.loginbutton:hover {
+  color: var(--cor-0);
+  background-color: var(--cor-p1);
+}
+
+@media (max-width: 800px) {
+  .introducao-conteudo::after {
+    content: none;
+  }
+
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .introducao-conteudo {
+    padding-bottom: 0px;
+  }
+
+  .introducao h1 {
+    margin-bottom: 16px;
+  }
+  
+  .introducao img {
+    height: 300px;
+    width: 100%;
+  }
+}

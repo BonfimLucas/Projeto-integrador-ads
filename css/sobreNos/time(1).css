@@ -1,0 +1,27 @@
+.time-bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p2);
+  overflow: hidden;
+  align-items: center;
+  gap: 50px;
+  margin-top: 80px;
+}
+
+.time-conteudo {
+  padding-left: 30px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.time-conteudo h1 {
+  padding-bottom: 20px;
+}
+
+.time-conteudo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}

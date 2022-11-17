@@ -1,0 +1,39 @@
+@import "./global/global.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
+
+/* Aprender Portugues */
+@import "./aprenderPort/aprenderPort.css";
+
+/* Home */
+@import "./home/introducao.css";
+@import "./home/doador.css";
+@import "./home/ods.css";
+@import "./home/depoimento.css";
+
+/* Login */
+@import "./login/login.css";
+@import "./login/login.css";
+
+/* Sobre Nós */
+@import "./sobreNos/imigrakaisen.css";
+@import "./sobreNos/missao-visao-valores.css";
+@import "./sobreNos/time.css";
+
+/* Cadastro Usuário */
+@import "./formulario/cadastro.css";
+
+/* Fale Conosco */
+@import "./formulario/faleconosco.css";
+
+
+
+
+

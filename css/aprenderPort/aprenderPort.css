@@ -1,0 +1,36 @@
+.intro-img-aprenderPort{
+  background: linear-gradient(
+    to right,
+    hsla(199, 75%, 75%, 40%),
+    hsla(199, 89%, 35%, 80%)
+  );
+  height: 620px;
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.intro-img-aprenderPort::before {
+  content: "";
+  background-image: url("../../img/fotos/leaning-another-language.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 620px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.aprender-portugues{
+  margin-bottom: 220px;
+}
+
+.aprender-portugues-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 150px;
+  gap: 40px;
+}
+
+
